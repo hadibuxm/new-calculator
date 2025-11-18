@@ -31,3 +31,9 @@ The following are the next steps for this project:
 4. **Documentation:** Update the project documentation with the final version of the code and any additional notes or explanations as necessary.
 
 This README will be updated as the project progresses and more information becomes available. It serves as the central source of truth for this project and will be useful for both current team members and any future contributors.
+
+## 5. Implementation Details
+
+- The reference implementation lives in `product_discovery/product_p2/feature_hello_word_in_c/hello_world.c`.
+- Compile the program with `gcc hello_world.c -o hello_world` (or any ANSI C compiler).
+- Run `./hello_world` to see the expected `Hello World` output.
