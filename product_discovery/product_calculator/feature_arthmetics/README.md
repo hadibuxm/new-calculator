@@ -1,28 +1,20 @@
-# Arithmetic Calculator in Python
+# Arithmetic Calculator Project
 
-## 1. Overview and Summary
+## Overview and Summary
+The goal of this project is to create a reliable and user-friendly arithmetic calculator. This calculator will be able to perform basic mathematical operations such as addition, subtraction, multiplication, and division. The calculator should be able to handle and display input and output of both integers and decimal numbers. It should also be able to handle multiple operations in a single input string, respecting the order of operations (PEMDAS/BODMAS).
 
-This project aims to develop a reliable, user-friendly arithmetic calculator using Python. The calculator will be capable of performing basic mathematical operations, including addition, subtraction, multiplication, and division. It will cater to the needs of students and professionals who require a quick and accurate tool for basic arithmetic calculations.
+## Key Decisions and Conclusions
+The calculator will be developed in Java. Java was chosen due to its object-oriented nature and its ability to easily create a GUI-based application. JavaFX or Swing libraries will be used to create a user-friendly interface for the calculator. 
 
-## 2. Key Decisions and Conclusions
+## Important Details Discussed
+The calculator should gracefully handle errors, such as dividing by zero, and should return an appropriate error message in such cases. Java doesn't have built-in tools to evaluate complex math expressions, so external libraries like mXparser may be used or a custom function may be written to handle this. Proper exception handling should be implemented to handle potential calculation errors. The codebase should be well-structured and commented for maintainability and potential future expansion. Unit testing is recommended to ensure code reliability and correctness.
 
-- The calculator will be developed using Python, a high-level language known for its extensive library support and readability.
-- The calculator will handle and display input and output of both integers and decimal numbers.
-- Error handling will be implemented for scenarios such as division by zero.
-- The calculator will be able to handle multiple operations in a single input string, respecting the order of operations (PEMDAS/BODMAS).
-- The user interface will be clear and user-friendly, providing clear instructions for input.
+## Action Items or Next Steps
+1. **Design phase**: Create a design of the calculator's interface and its functionality.
+2. **Development phase**: Start the development of the calculator based on the design. This includes creating the GUI, implementing the arithmetic operations, and handling user input and errors.
+3. **Testing phase**: Perform unit testing on the code to ensure reliability and correctness. Test the calculator with various input scenarios to make sure it works as expected.
+4. **Deployment phase**: After successful testing, deploy the calculator for use.
+5. **Maintenance phase**: Regularly update the calculator as needed and fix any bugs that may arise.
 
-## 3. Important Details Discussed
-
-- Python's inbuilt `eval()` function could be utilized for evaluating expressions. However, user input should be sanitized to prevent code injection attacks.
-- The use of libraries such as Tkinter or PyQt could be considered for developing a GUI application. Alternatively, a CLI could be used.
-- The code should be structured in an object-oriented manner using classes and methods. This will facilitate easier maintenance and expansion in the future.
-- Test-driven development is recommended to ensure all parts of the code function as expected.
-
-## 4. Action Items or Next Steps
-
-- **Research**: Investigate further on Python's `eval()` function and the potential security risks associated with it.
-- **Design**: Decide on the user interface - GUI or CLI. If GUI, choose between Tkinter and PyQt.
-- **Development**: Begin coding the calculator, ensuring to follow best practices for Python and object-oriented design.
-- **Testing**: Implement test-driven development. Write tests for each function as it's developed and perform regular testing and debugging.
-- **Documentation**: Continue updating this document as the project progresses, adding any new decisions or important information.
+## Conclusion
+This document serves as a guideline for the development of the Arithmetic Calculator project. The calculator is expected to be user-friendly, reliable, and accurate in its calculations. It will be a valuable tool for students and professionals alike.
